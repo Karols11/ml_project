@@ -1,0 +1,7 @@
+try-large-dataset:
+  [test-TEST]:
+    featurize:
+      max_features: 500
+    train:
+      min_split: 0.01
+      n_est: 50
